@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#poster{
+    background-color: rgb(226, 202, 171);
+    width: 500px;
+    height: calc(500px / 18 * 24);
+}
+
+.text{
+    position: absolute;
+    display: inline;
+    color:black;
+}
+
+#h4{
+    margin: 0px;
+}
+
+#h6{
+    margin: 8px;
+}
+
+.text--numbers{
+    display: inline;
+    font-size: 370px;
+    padding: -150%;
+    margin-left: 0%;
+    margin-top: -185px;
+    line-height: 50px;
+}
+
+
+.number--4{
+    color: crimson;
+    position: absolute;
+    left: -3px;
+    bottom: 6px;
+}
+
+.number--5{
+    color: darkgreen;
+    position: absolute;
+    top: 37px;
+    right: 695px;
+    opacity: 90%;
+}
+
+.text--small{
+    font-size: 17px;
+    line-height: 5px;
+}
+
+
+.text--big{
+    font-size: 40px;
+}
+
+#text--left{
+    width: 50%;
+    padding-left: 30px;
+    font-size: 20px;
+    text-align: right;
+    width: 10%;
+}
+
+#text--mid{
+    width: 50%;
+    padding-left: 220px;
+    padding-top: 20px;
+    text-align: right;
+    width: 17%;
+}
+
+#text--right{
+    width: 100%;
+    padding-left: 330px;
+    padding-top: 20px;
+}
+
